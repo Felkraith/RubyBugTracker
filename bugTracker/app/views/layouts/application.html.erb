@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bug Tracker</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinkstrack'=> true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true%>
+    <%= csrf_meta_tags %>
+  </head>
+  <body class="<%= controller.controller_name %>"></body>
+    <div id="banner">
+      <img src="https://www.veracode.com/sites/default/files/wp-content/uploads/2012/10/Virus.png" alt="virus" hieght= 42 width = 42>
+      <%= @page_title || "My Bug Tracker!" %>
+    </div>
+  
+    <div id="columns">
+      <div id="side">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/users">Users</a></li>
+          <li><a href="/bugs">Bugs</a></li>
+          <li><a href="/pages/contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div id="main">
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<% if notice %>
+  <p id="notice"><%= notice %></p>
+<% end %>
+
+<h1><span class="description_Header">Listing Bugs</span></h1>
+
+ <% @bugs.each do |bug| %>
+ <div class="report">
+   <div class="report_title"> <%= bug.title %> </div>
+   <div class="report_info">
+     <span class="date"> <%= bug.updated_at.to_formatted_s(:long_ordinal)%> </span>
+     <span class="user"> By <%= ((bug.user.try(:full_name)) || "NA") %> </span>
+     
+   </div>
+   <div class="report_text"> <%= bug.description %> </div>
+   <div class="actions">
+     <span class="btnsmall">
+     <%= link_to 'Show', bug %>
+     </span>
+     <span class="btnsmall">
+     <%= link_to 'Edit', edit_bug_path(bug) %>
+     </span>
+     <span class="btnsmall">
+     <%= link_to 'Destroy', bug, method: :delete, data: { confirm: 'Are you sure?' } %>
+     </span>
+   </div>
+ </div>
+ <% end %>
+ 
+<span class="btn">
+<%= link_to 'New Bug', new_bug_path %>
+</span>

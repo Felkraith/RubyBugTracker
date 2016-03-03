@@ -1,0 +1,44 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+
+Testing specifications for bugs:
+title: string
+description: text
+issue_type: enum - issue, enhancement, feature
+priority: enum - low, medium, high
+status: enum - open, closed, or monitor
+
+- Title can not be blank
+- Description can not be blank
+- Issue_type must have a valid value
+- Priority must have a valid value
+- Status must have a valid value
+- Issue_type must have a default value of feature
+- Priority must have a default value of medium
+- Status must have a default value of open

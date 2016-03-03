@@ -1,0 +1,53 @@
+p = Post.create(title: "this is a valid title", article: "This is a very long article about absolutely nothing.", likes: 0)
+p.title = "a" * 1000
+p.valid?
+p = post.first
+authors = Authors.all
+p = Post.first
+authors = Author.all
+p.save!
+p.author = a
+p = p.first
+a = Auhtor.find(2)
+a = Author.find(2)
+ap = a.posts
+Author.all
+Author.create (fname: "Camila", lname: "Penaloza", email: "pila@gmail.com", thumbnail: "this.png")
+a = Author.new
+a.fname = "cam"
+a.lname = "pila"
+a.email = "this@mail.com"
+a.thumbnail = "this.png"
+a.save!
+b = Bug.create(title: "This is a valid title", description: "This is a very long description about absolutley nothing.", issue_type: 2, priority: 0, status: 1)
+b.title = ""
+b.title = "a" * 1000
+b.issue_type = -1
+b.issue_type = "-1"
+b.issue_type = "issue"
+b.priority
+b.status
+b.status = "blah"
+u = User.find(2)
+b.user = u
+b.user_id = a
+b.user_id = "roland"
+userObject = User.new(:fname=> "roland", :lname => "Heusser", :email => "rolie@gmail.com", :thumbnail => "Freya.png")
+userObject.save
+users = User.all
+b = User.find(1)
+a = User.find(1)
+b.user = a
+User(1).fname = "Roland"
+user = User.find(1)
+user.fname = "Roland"
+user.save!
+b.issue_type = "carrots"
+b.save!
+b = Bug.first
+b.valid
+b.vlaid?
+b.valid?
+b.issue_type = 4
+b.status = 4
+exit

@@ -1,0 +1,175 @@
+#banner {
+    background: #1f1f1f;
+    padding: 10px;
+    border-bottom: 2px solid;
+    font: small-caps 40px/40px "Arial";
+    color: #E3DC95;
+    text-align: center;
+    img {
+        float: left;
+    }
+}
+#notice {
+    color: #000 !important;
+    border: 2px solid red;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #f0f0f0;
+    font: bold smaller sans-serif;
+}
+.btn {
+    background: #1F1F1F;
+      background-image: -webkit-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -moz-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -ms-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -o-linear-gradient(top, #1F1F1F, #737373);
+      background-image: linear-gradient(to bottom, #1F1F1F, #737373);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: Courier New;
+      color: #E3DC95;
+      font-size: 18px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+  
+   
+    float: left;
+    margin-bottom: 15px
+}
+.btn a:link {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btn a:visited {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btn a:active {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #abab7d;
+  background-image: -webkit-linear-gradient(top, #abab7d, #51513D);
+  background-image: -moz-linear-gradient(top, #abab7d, #51513D);
+  background-image: -ms-linear-gradient(top, #abab7d, #51513D);
+  background-image: -o-linear-gradient(top, #abab7d, #51513D);
+  background-image: linear-gradient(to bottom, #abab7d, #51513D);
+  text-decoration: none;
+}
+
+.btnsmall {
+    background: #1F1F1F;
+      background-image: -webkit-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -moz-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -ms-linear-gradient(top, #1F1F1F, #737373);
+      background-image: -o-linear-gradient(top, #1F1F1F, #737373);
+      background-image: linear-gradient(to bottom, #1F1F1F, #737373);
+      -webkit-border-radius: 12;
+      -moz-border-radius: 12;
+      border-radius: 12px;
+      font-family: Courier New;
+      color: #E3DC95;
+      font-size: 12px;
+      padding: 5px 10px 5px 10px;
+      text-decoration: none;
+  
+   
+    float: left;
+    margin-bottom: 10px
+}
+.btnsmall a:link {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btnsmall a:visited {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btnsmall a:active {
+    color: #E3DC95;
+    text-decoration: none;
+}
+.btnsmall:hover {
+    background: #abab7d;
+  background-image: -webkit-linear-gradient(top, #abab7d, #51513D);
+  background-image: -moz-linear-gradient(top, #abab7d, #51513D);
+  background-image: -ms-linear-gradient(top, #abab7d, #51513D);
+  background-image: -o-linear-gradient(top, #abab7d, #51513D);
+  background-image: linear-gradient(to bottom, #abab7d, #51513D);
+  text-decoration: none;
+}
+#columns {
+    background: #51513D;
+    #main {
+        margin-left: 17em;
+        padding: 1em;
+        background: #A6A867;
+    }
+    #side {
+        float: left;
+        padding: 1em 2em;
+        width: 13em;
+        background: #51513D;
+        ul {
+            padding: 0;
+                li {
+                    list-style: none;
+                    a {
+                        color: #E3DC95;
+                        font-size: small;
+                    }
+            }
+        }
+    }
+    
+}
+.bugs {
+    
+ .report {
+  margin-bottom: 35px;
+ }
+ .report_title {
+  font: small-caps "Arial";
+  font-size: 120%;
+  font-weight: bold;
+ }
+ .report_info {
+  font-style: italic;
+ }
+ .user {
+  font-weight: bold;
+ }
+ .report_text {
+  width: 75%;
+  margin-top: 5px;
+ }
+ 
+}
+
+.users {
+ .description {
+  margin-bottom: 35px;
+ }
+ .description_Header {
+  font: small-caps "Arial";
+  font-size: 120%;
+  font-weight: bold;
+ }
+ .description_fname {
+  
+  font-weight: bold;
+ }
+ .description_lname {
+  
+  font-weight: bold;
+ }
+ .description_email {
+  font-weight: italic;
+ }
+ .description_thumbnail {
+  font-weight: italic;
+ }
+ 
+}
